@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+.contaner{
+    height: 100px;
+    width: auto;
+    background-color: aqua;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+.input-div{
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 23px;
+    width:35rem;
+}
+#add-button{
+    margin-left: 10px;
+    padding: 0px 36px 0px 36px ;
+    background-color: gray;
+    color: rgb(241, 244, 247);
+    border: none;
+}
+#task{
+    margin-left: 336px;
+    border: 1px solid black;
+    height: 24px;
+    width: 35rem;
+    font-size: larger;
+    background-color: beige;
+    color: black;
+    display: flex;
+    
+    
+}
+#task-1{
+
+    color:red;
+    padding: 0;
+    margin: 0;
+
+}
