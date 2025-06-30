@@ -7,19 +7,15 @@
     <link rel="stylesheet" href="indx.css">
 </head>
 <body>
-   <div class="contaner ">
-     <h1>To-Do-List</h1>
-     <div class="input-div">
-     <input id="input" type="text" placeholder="Add your Activity her....">
-     <button id="add-button " onclick=" browserData ()"  >Add</button>
-     </div>
-   </div>  
-   <div id="task">
-    <p id="task-1"></p>
-   </div>
- 
-
-
-<script src="indx.js" ></script>    
+  <div class="todo-container">
+            <h2>To-do-List</h2>
+            <div class="input-section">
+                <input type="text" id="taskInput" placeholder="Add your activity here...">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="taskList"></ul>
+        </div>
+        
+        <script src="indx.js"></script>  
 </body>
 </html>
